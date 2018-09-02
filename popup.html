@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ronald Popup</title>
+    <style>
+     
+      body {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        box-sizing: border-box;
+        background-image: url("ronaldinho.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+
+      .container-row{
+        margin: 5px;
+        padding-bottom: 20px;
+        color: rgba(60, 56, 56, 0.8);
+        text-shadow: 2px 2px 5px;
+        flex: 1;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 200px;
+        text-align: center;
+
+      }
+
+      .container-row div {
+        position: relative;
+        top: 80px;
+        padding-bottom: 10px;
+      }
+      .btn {
+        border-radius: 10px;
+        padding: 5px 10px 5px 10px;
+        margin: 5px 10px 5px 10px;
+        background: rgba(100, 149, 237, 1);
+        color: azure;
+        text-decoration: none;
+        border: none;
+
+        transition: .2s ease-in-out;
+      }
+      .btn:hover {
+        border-radius: 0px;
+        background: rgba(00, 149, 255, 1);
+      }
+      .bg-warning {
+        background: rgba(220, 20, 60, 1);
+      }
+      .bg-warning:hover {
+        background: rgba(250, 20, 60, 1) !important;
+      }
+
+      .bg-success {
+        background: rgba(48, 174, 29, 1);
+      }
+      .bg-success:hover {
+        background: rgba(48, 254, 29, 1) !important;
+      }
+
+      
+    </style>
+</head>
+<body>
+    <div class="container-row">
+      <div>
+        <h1>Rolezinho</h1>
+        <button id="twitar" class="btn">Twittar!</button>
+        <input id="input" type="text" value="please come to brazil" />
+        <button id="ronaldinhofy" class="btn bg-success">Ronaldinhofy</button>
+      </div>
+    </div>
+    <script src="popup.js"></script>
+</body>
+</html>
