@@ -16,4 +16,6 @@ appreciate the ronaldinho's journey
 * Download the repo
 * Go to chrome://extensions and activate the dev mode in top-right of the screen
 * Click in "LOAD UNPACKED" and select the source directory
-* ***Enjoy***
+* ***Enjoy  (?)***
+
+version 1.0
