@@ -12,10 +12,15 @@ appreciate the ronaldinho's journey
 
 ![popup](https://github.com/Ronald-TR/Randomdinho/blob/master/docs/example1.png)
 
-### install
+### install #1
 * Download the repo
 * Go to chrome://extensions and activate the dev mode in top-right of the screen
 * Click in "LOAD UNPACKED" and select the source directory
+* ***Enjoy  (?)***
+
+### install #2
+* In Chrome, [Click here](https://github.com/Ronald-TR/Randomdinho/blob/master/rolezinho_chrome_extension.crx?raw=true) and open the file 
+* Accept the installation
 * ***Enjoy  (?)***
 
 version 1.0
